@@ -24,7 +24,7 @@ public class DemoAction {
     @RequestMapping("/get")
     @ResponseBody
     public List<User> test() {
-        return userService.getUsers(1,10);
+        return userService.getUsers(1,2);
     }
 
 }
