@@ -40,7 +40,7 @@
                     <bean class="com.github.pagehelper.PageHelper">
                         <property name="properties">
                             <value>
-                                dialect=mysql pageSizeZero=true reasonable=true
+                                helperDialect=mysql pageSizeZero=true reasonable=true
                             </value>
                         </property>
                     </bean>
