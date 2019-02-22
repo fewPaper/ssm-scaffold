@@ -20,6 +20,7 @@
         <pagehelper-version>4.0.1</pagehelper-version>
         <slf4j-version>1.7.12</slf4j-version>
         <log4j-version>1.2.17</log4j-version>
+        <workflow-version>1.0.0</workflow-version>
     </properties>
 
     <!--use aliyun maven repo-->
@@ -141,7 +142,6 @@
             <artifactId>log4j</artifactId>
             <version>${log4j-version}</version>
         </dependency>
-
     </dependencies>
     <build>
         <finalName>ssm-simple</finalName>
