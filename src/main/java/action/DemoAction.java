@@ -53,7 +53,11 @@ public class DemoAction {
     @RequestMapping("/updateById")
     @ResponseBody
     public int updateById() {
-        User2 user2 = new User2(1, "aaa", String.valueOf((int) ((Math.random() * 9 + 1) * 100000)));
-        return testEngine.getUserService2().updateByPrimaryKey(user2);
+
+        userService.transactionTest2();
+
+//        User2 user2 = new User2(1, "ggg", String.valueOf((int) ((Math.random() * 9 + 1) * 100000)));
+//        testEngine.getUserService2().insert(user2);
+        return 1;
     }
 }
