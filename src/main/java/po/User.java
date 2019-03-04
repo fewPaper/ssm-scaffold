@@ -1,4 +1,4 @@
-package entity;
+package po;
 
 public class User {
     /**

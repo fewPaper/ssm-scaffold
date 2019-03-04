@@ -40,9 +40,57 @@
             <javaClientGenerator type="XMLMAPPER" targetPackage="${daoPackage}" targetProject="${targetProject}">
             </javaClientGenerator>
             <!-- table 举例 -->
-            <table tableName="user" enableCountByExample="false"
-               enableUpdateByExample="false" enableDeleteByExample="false"
-               enableSelectByExample="false" selectByExampleQueryId="false">
+            <!--<table tableName="user" enableCountByExample="false"-->
+               <!--enableUpdateByExample="false" enableDeleteByExample="false"-->
+               <!--enableSelectByExample="false" selectByExampleQueryId="false">-->
+            <!--</table>-->
+            <table tableName="OS_HI_INDENTITYLINK" enableCountByExample="false"
+            enableUpdateByExample="false" enableDeleteByExample="false"
+            enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_HI_PROC_INST" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_HI_STEP" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_HI_VARIABLE" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_RE_BATEARRAY" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_RE_MODEL" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_RE_PROCDEF" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_RU_INDENTITYLINK" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_RU_PREV" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_RU_PROC_INST" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_RU_STEP" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
+            </table>
+            <table tableName="OS_RU_VARIABLE" enableCountByExample="false"
+                   enableUpdateByExample="false" enableDeleteByExample="false"
+                   enableSelectByExample="false" selectByExampleQueryId="false">
             </table>
         </context>
     </generatorConfiguration>

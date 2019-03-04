@@ -2,12 +2,11 @@ package service;
 
 import com.github.pagehelper.PageHelper;
 import dao.UserMapper;
-import entity.User;
+import po.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import workflow.TestEngine;
-import workflow.entity.User2;
 
 import java.util.List;
 
